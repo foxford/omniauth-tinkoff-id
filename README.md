@@ -1,6 +1,9 @@
 # TinkoffId OAuth strategy for OmniAuth
 
+[![Ruby](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml/badge.svg)](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml)
+
 ## Getting Started
+
 ### Prerequisites
 
 This gem require [OmniAuth](http://github.com/intridea/omniauth)
