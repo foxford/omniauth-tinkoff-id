@@ -2,6 +2,8 @@
 
 [![Ruby](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml/badge.svg)](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml)
 
+[![sponsored by foxford](https://user-images.githubusercontent.com/1637293/224282750-6131144c-fdee-4943-9387-35641cedd99c.svg)](https://foxford.ru?utm_source=github)
+
 ## Getting Started
 
 ### Prerequisites
