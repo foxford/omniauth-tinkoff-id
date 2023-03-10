@@ -17,5 +17,4 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split("\n")
   spec.require_paths = ['lib']
   spec.add_runtime_dependency 'omniauth-oauth2', '>= 1.5', '<= 1.8.0'
-  spec.metadata['rubygems_mfa_required'] = 'true'
 end
