@@ -4,13 +4,13 @@ require 'omniauth/strategies/oauth2'
 
 module OmniAuth
   module Strategies
-    # Authenticate to Tinkoff ID utilizing OAuth 2.0
-    # https://tinkoff.github.io/tinkoff-id/
+    # Authenticate to T-ID utilizing OAuth 2.0
+    # https://developer.tbank.ru/docs/api/t-id
     class TinkoffId < OmniAuth::Strategies::OAuth2
       option :name, 'tinkoff_id'
 
       option :client_options, {
-        site: 'https://id.tinkoff.ru',
+        site: 'https://id.tbank.ru',
         token_url: '/auth/token',
         authorize_url: '/auth/authorize',
         auth_scheme: :basic_auth
@@ -64,7 +64,7 @@ module OmniAuth
       end
 
       def connection
-        @connection ||= Faraday.new('https://id.tinkoff.ru') do |conn|
+        @connection ||= Faraday.new('https://id.tbank.ru') do |conn|
           conn.request :url_encoded
           conn.request :authorization, 'Bearer', access_token.token
           conn.response :json
