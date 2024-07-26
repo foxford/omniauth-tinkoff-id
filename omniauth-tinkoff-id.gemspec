@@ -16,5 +16,5 @@ Gem::Specification.new do |spec|
   spec.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   spec.files         = `git ls-files`.split("\n")
   spec.require_paths = ['lib']
-  spec.add_runtime_dependency 'omniauth-oauth2', '>= 1.5', '<= 1.8.0'
+  spec.add_dependency 'omniauth-oauth2', '>= 1.5', '<= 1.8.0'
 end
