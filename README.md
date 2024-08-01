@@ -1,4 +1,4 @@
-# TinkoffId OAuth strategy for OmniAuth
+# T-Id OAuth strategy for OmniAuth
 
 [![Ruby](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml/badge.svg)](https://github.com/foxford/omniauth-tinkoff-id/actions/workflows/main.yml)
 
@@ -18,7 +18,7 @@ This gem already added.
 
     gem "omniauth-tinkoff-id"
 
-[Join](https://tinkoff.github.io/tinkoff-id/join/) to TinkoffId
+[Join](https://developer.tbank.ru/docs/intro/partner/tid) to TinkoffId
 
 ### Usage
 
@@ -74,4 +74,4 @@ This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Acknowledgments
 
-* https://tinkoff.github.io/tinkoff-id/
+* https://developer.tbank.ru/docs/intro/partner/tid

@@ -13,3 +13,6 @@ Metrics/BlockLength:
 Naming/FileName:
   Exclude:
     - lib/omniauth-tinkoff-id.rb
+
+Gemspec/RequireMFA:
+  Enabled: false

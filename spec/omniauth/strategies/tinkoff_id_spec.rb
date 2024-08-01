@@ -28,7 +28,7 @@ describe OmniAuth::Strategies::TinkoffId do
 
   describe '#client_options' do
     it 'has correct site' do
-      expect(subject.client.site).to eq('https://id.tinkoff.ru')
+      expect(subject.client.site).to eq('https://id.tbank.ru')
     end
 
     it 'has correct authorize_url' do
@@ -129,7 +129,7 @@ describe OmniAuth::Strategies::TinkoffId do
     end
 
     before do
-      stub_request(:post, 'https://id.tinkoff.ru/userinfo/userinfo')
+      stub_request(:post, 'https://id.tbank.ru/userinfo/userinfo')
         .with(
           body: { 'client_id' => 'client_id', 'client_secret' => 'client_secret' },
           headers: {
